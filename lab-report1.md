@@ -15,6 +15,9 @@ if you are in MAC:
  Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 - then you type "yes" and press enter, then give your password
+- the following is likely to be your whole input and output
+- ![connect](https://github.com/hahacen/lab-report1/blob/main/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202022-04-10%2017.45.30.png)
+- 
 
 
 
