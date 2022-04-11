@@ -5,6 +5,7 @@
 
 
 **2. Remotely Connecting**
+
 if you are in MAC:
 - open the VScode and open the terminal
 - then type in "$ ssh cs15lsp22zz@ieng6.ucsd.edu", replacing zz with your specifc account
@@ -34,8 +35,9 @@ note: if you want to exit, you can
 - Run the command exit
 
 
-4. Moving Files with scp
+**4. Moving Files with scp**
 - you can first creat a file using the following code
+  
   _class WhereAmI {
   public static void main(String[] args) {
     System.out.println(System.getProperty("os.name"));
@@ -45,12 +47,63 @@ note: if you want to exit, you can
   }
 }_
 
-- then save this file and input the following as command
+- then save this file and input the following as command in the terminal of the directory that you created and saved the file
 - scp _WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/_
+- then this file will be moved to the remote server
+- you may see the following output in the terminal of the directory that you created and saved the file
+- ![output](https://github.com/hahacen/cse15l-lab-reports/blob/main/451649647571_.pic.jpg)
+
+cs15lsp22amu@ieng6.ucsd.edu
 
 
-5. Setting an SSH Key
+**5. Setting an SSH Key**
+- open the terminal in VScode and you can input the following commands
 
 
+on client (your computer)
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
+Enter passphrase (empty for no passphrase): 
+Note: Make sure that you do not add a passphrase for this step.
+Enter same passphrase again: 
+Your identification has been saved in /Users/<user-name>/.ssh/id_rsa.
+Your public key has been saved in /Users/<user-name>/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 <user-name>@<system>.local
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|       . . + .   |
+|      . . B o .  |
+|     . . B * +.. |
+|      o S = *.B. |
+|       = = O.*.*+|
+|        + * *.BE+|
+|           +.+.o |
+|             ..  |
++----[SHA256]-----+
 
-6. Optimizing Remote Running
+
+- it should look like![terminal1](https://github.com/hahacen/cse15l-lab-reports/blob/main/461649651061_.pic.jpg)
+
+- then you copy the key from the public server to your .ssh your account server
+$ ssh cs15lsp22zz@ieng6.ucsd.edu
+<Enter Password>
+# now on server
+$ mkdir .ssh
+$ <logout>
+# back on client
+$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+# You use your username and the path you saw in the command above
+
+ 
+**6. Optimizing Remote Running**
+- now try to copy WhereAmI again:
+- using the following code is the fastest way to make a local edit, then copy it to the remote server and then run it.
+ 
+ scp WhereAmI.java cs15lsp22amu@ieng6.ucsd.edu:～/
+ ssh cs15lsp22amu@ieng6.ucsd.edu "javac WhereAmI.java;java WhereAmI"
+
+ 
+ 
