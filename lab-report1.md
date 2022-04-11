@@ -43,14 +43,21 @@ for example, if you try some, you may see the following in the terminal
 **4. Moving Files with scp**
 - you can first creat a file using the following code
   
-  _class WhereAmI {
-  public static void main(String[] args) {
-    System.out.println(System.getProperty("os.name"));
-    System.out.println(System.getProperty("user.name"));
-    System.out.println(System.getProperty("user.home"));
-    System.out.println(System.getProperty("user.dir"));
-  }
-}_
+  _class WhereAmI {_
+  
+  _public static void main(String[] args) {_
+  
+    _System.out.println(System.getProperty("os.name"));_
+    
+    _System.out.println(System.getProperty("user.name"));_
+    
+    _System.out.println(System.getProperty("user.home"));_
+    
+    _System.out.println(System.getProperty("user.dir"));_
+    
+  _}_
+  
+_}_
 
 - then save this file and input the following as command in the terminal of the directory that you created and saved the file
 - scp _WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/_
@@ -98,22 +105,20 @@ $ ssh cs15lsp22zz@ieng6.ucsd.edu
  
 <Enter Password>
  
-# now on server
  
 $ mkdir .ssh
  
 $ <logout>
  
-# back on client
- 
+
 $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
  
-# You use your username and the path you saw in the command above
+You use your username and the path you saw in the command above
 
  
  
 **6. Optimizing Remote Running**
-- now try to copy WhereAmI again:
+ 
 - using the following code is the fastest way to make a local edit, then copy it to the remote server and then run it.
  
  scp WhereAmI.java cs15lsp22amu@ieng6.ucsd.edu:～/
