@@ -5,7 +5,8 @@
 
 - and you will see the following page of VScode
 
-![VScode2]()
+![VScode2](https://github.com/hahacen/lab-report1/blob/main/481649652336_.pic.jpg)
+
 **2. Remotely Connecting**
 
 if you are in MAC:
