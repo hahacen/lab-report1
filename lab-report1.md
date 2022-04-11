@@ -1,9 +1,11 @@
 **1. Installing the VScode**
 - first go to this [Website](https://code.visualstudio.com/)
 - follow the instructions and download the right version of VScode in your computer
-- ![VScode1](https://github.com/hahacen/lab-report1/blob/main/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202022-04-10%2017.33.30.png)
+![VScode1](https://github.com/hahacen/lab-report1/blob/main/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202022-04-10%2017.33.30.png)
 
+- and you will see the following page of VScode
 
+![VScode2]()
 **2. Remotely Connecting**
 
 if you are in MAC:
@@ -34,6 +36,8 @@ note: if you want to exit, you can
 - Ctrl-D
 - Run the command exit
 
+for example, if you try some, you may see the following in the terminal
+![pic](https://github.com/hahacen/lab-report1/blob/main/471649652063_.pic.jpg)
 
 **4. Moving Files with scp**
 - you can first creat a file using the following code
@@ -88,22 +92,33 @@ The key's randomart image is:
 - it should look like![terminal1](https://github.com/hahacen/cse15l-lab-reports/blob/main/461649651061_.pic.jpg)
 
 - then you copy the key from the public server to your .ssh your account server
+ 
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
+ 
 <Enter Password>
+ 
 # now on server
+ 
 $ mkdir .ssh
+ 
 $ <logout>
+ 
 # back on client
+ 
 $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+ 
 # You use your username and the path you saw in the command above
 
+ 
  
 **6. Optimizing Remote Running**
 - now try to copy WhereAmI again:
 - using the following code is the fastest way to make a local edit, then copy it to the remote server and then run it.
  
  scp WhereAmI.java cs15lsp22amu@ieng6.ucsd.edu:～/
+ 
  ssh cs15lsp22amu@ieng6.ucsd.edu "javac WhereAmI.java;java WhereAmI"
 
+ 
  
  
