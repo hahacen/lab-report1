@@ -15,7 +15,9 @@ if you are in MAC:
 - if it is your first time of connection, the following message is likely to pop up:
 
  ```The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.```
+ 
  ```RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.```
+ 
  ```Are you sure you want to continue connecting (yes/no/[fingerprint])?```
 
 - then you type "yes" and press enter, then give your password
