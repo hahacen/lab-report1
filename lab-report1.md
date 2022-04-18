@@ -131,13 +131,9 @@ You use your username and the path you saw in the command above
  ![absadasd](https://github.com/hahacen/lab-report1/blob/main/591650314980_.pic.jpg)
  
 **6. Optimizing Remote Running**
- 
-- using the following code is the fastest way to make a local edit, then copy it to the remote server and then run it.
- 
- scp WhereAmI.java cs15lsp22amu@ieng6.ucsd.edu:～/
- 
- ssh cs15lsp22amu@ieng6.ucsd.edu "javac WhereAmI.java;java WhereAmI"
 
- k
+- you may use Upward arrow to recall the commands used at the last command line
+- you may use semicolons to run several commands at one line
+ ![absadasd](https://github.com/hahacen/lab-report1/blob/main/641650315930_.pic.jpg)
  
  
