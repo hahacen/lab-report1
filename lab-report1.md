@@ -40,7 +40,7 @@ note: if you want to exit, you can
 - ```Run the command exit```
 
 for example, if you try some, you may see the following in the terminal
-![pic](https://github.com/hahacen/lab-report1/blob/main/471649652063_.pic.jpg)
+![pic](https://github.com/hahacen/lab-report1/blob/main/551650312693_.pic.jpg)
 
 **4. Moving Files with scp**
 - you can first creat a file using the following code
