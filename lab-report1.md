@@ -1,4 +1,4 @@
-#1. Installing the VScode#
+## 1. Installing the VScode
 - first go to this [Website](https://code.visualstudio.com/)
 - follow the instructions and download the right version of VScode in your computer
 ![VScode1](https://github.com/hahacen/lab-report1/blob/main/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202022-04-10%2017.33.30.png)
@@ -7,7 +7,7 @@
 
 ![VScode2](https://github.com/hahacen/lab-report1/blob/main/481649652336_.pic.jpg)
 
-**2. Remotely Connecting**
+## 2. Remotely Connecting
 
 if you are in MAC:
 - open the VScode and open the terminal
@@ -25,7 +25,7 @@ if you are in MAC:
 - ![connect](https://github.com/hahacen/lab-report1/blob/main/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202022-04-10%2017.45.30.png)
 
 
-**3. Trying Some Commands**
+## 3. Trying Some Commands
 - now you can try some Commands 
 - here are some commands that you can try 
 
@@ -42,7 +42,7 @@ note: if you want to exit, you can
 for example, if you try some, you may see the following in the terminal
 ![pic](https://github.com/hahacen/lab-report1/blob/main/551650312693_.pic.jpg)
 
-**4. Moving Files with scp**
+## 4. Moving Files with scp
 - you can first creat a file using the following code
   
   ```class WhereAmI {
@@ -71,7 +71,7 @@ for example, if you try some, you may see the following in the terminal
 
 
 
-**5. Setting an SSH Key**
+## 5. Setting an SSH Key
 - open the terminal in VScode and you can input the following commands
 
 
@@ -130,7 +130,7 @@ You use your username and the path you saw in the command above
  
  ![absadasd](https://github.com/hahacen/lab-report1/blob/main/591650314980_.pic.jpg)
  
-**6. Optimizing Remote Running**
+## 6. Optimizing Remote Running
 
 - you may use Upward arrow to recall the commands used at the last command line
 - you may use semicolons to run several commands at one line
