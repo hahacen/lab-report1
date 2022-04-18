@@ -87,8 +87,8 @@ then copy and paste ```/Users/<user-name>/.ssh/id_rsa``` like the following:
 Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
 
 ![absad](https://github.com/hahacen/lab-report1/blob/main/621650315243_.pic.jpg)
- 
-Enter passphrase (empty for no passphrase): 
+
+```Enter passphrase (empty for no passphrase): 
 Note: Make sure that you do not add a passphrase for this step.
 Enter same passphrase again: 
 Your identification has been saved in /Users/<user-name>/.ssh/id_rsa.
@@ -107,7 +107,7 @@ The key's randomart image is:
 |           +.+.o |
 |             ..  |
 +----[SHA256]-----+
-
+```
 
 - it should look like![terminal1](https://github.com/hahacen/cse15l-lab-reports/blob/main/461649651061_.pic.jpg)
 
