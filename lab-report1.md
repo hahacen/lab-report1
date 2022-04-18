@@ -11,7 +11,7 @@
 
 if you are in MAC:
 - open the VScode and open the terminal
-- then type in "$ ssh cs15lsp22zz@ieng6.ucsd.edu", replacing zz with your specifc account
+- then type in ```$ ssh cs15lsp22zz@ieng6.ucsd.edu"```, replacing zz with your specifc account
 - if it is your first time of connection, the following message is likely to pop up:
 
  **The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
