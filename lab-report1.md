@@ -59,7 +59,7 @@ for example, if you try some, you may see the following in the terminal
     
    }
   
-}```
+}
 
 - then save this file and input the following as command in the terminal of the directory that you created and saved the file
 - ```scp WhereAmI.java cs15lsp22amu@ieng6.ucsd.edu:~/```
