@@ -47,27 +47,27 @@ for example, if you try some, you may see the following in the terminal
   
   ```class WhereAmI {
   
-  _public static void main(String[] args) {_
+  public static void main(String[] args) {
   
-    _System.out.println(System.getProperty("os.name"));_
+    System.out.println(System.getProperty("os.name"));
     
-    _System.out.println(System.getProperty("user.name"));_
+    System.out.println(System.getProperty("user.name"));
     
-    _System.out.println(System.getProperty("user.home"));_
+    System.out.println(System.getProperty("user.home"));
     
-    _System.out.println(System.getProperty("user.dir"));_
+    System.out.println(System.getProperty("user.dir"));
     
-  _}```
+   }
   
-_}_
+}```
 
 - then save this file and input the following as command in the terminal of the directory that you created and saved the file
-- scp _WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/_
+- ```scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/```
 - then this file will be moved to the remote server
 - you may see the following output in the terminal of the directory that you created and saved the file
 - ![output](https://github.com/hahacen/cse15l-lab-reports/blob/main/451649647571_.pic.jpg)
 
-cs15lsp22amu@ieng6.ucsd.edu
+```cs15lsp22amu@ieng6.ucsd.edu```
 
 
 **5. Setting an SSH Key**
