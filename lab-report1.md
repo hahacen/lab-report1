@@ -62,7 +62,7 @@ for example, if you try some, you may see the following in the terminal
 }```
 
 - then save this file and input the following as command in the terminal of the directory that you created and saved the file
-- ```scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/```
+- ```scp WhereAmI.java cs15lsp22amu@ieng6.ucsd.edu:~/```
 - then this file will be moved to the remote server
 - you may see the following output in the terminal of the directory that you created and saved the file
 - ![output](https://github.com/hahacen/cse15l-lab-reports/blob/main/451649647571_.pic.jpg)
@@ -70,12 +70,13 @@ for example, if you try some, you may see the following in the terminal
 ```cs15lsp22amu@ieng6.ucsd.edu```
 
 
+
 **5. Setting an SSH Key**
 - open the terminal in VScode and you can input the following commands
 
 
 on client (your computer)
-$ ssh-keygen
+```$ ssh-keygen```
 Generating public/private rsa key pair.
 Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
 Enter passphrase (empty for no passphrase): 
