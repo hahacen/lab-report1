@@ -66,7 +66,8 @@ for example, if you try some, you may see the following in the terminal
 - then this file will be moved to the remote server
 - you may see the following output in the terminal of the directory that you created and saved the file
 - ![output](https://github.com/hahacen/cse15l-lab-reports/blob/main/451649647571_.pic.jpg)
-
+- ![ab](https://github.com/hahacen/lab-report1/blob/main/541650312533_.pic.jpg)
+- ![abc]()
 ```cs15lsp22amu@ieng6.ucsd.edu```
 
 
