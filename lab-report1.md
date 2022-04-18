@@ -20,7 +20,7 @@ if you are in MAC:
  
  ```Are you sure you want to continue connecting (yes/no/[fingerprint])?```
 
-- then you type "yes" and press enter, then give your password
+- then you type ```yes``` and press enter, then give your password
 - the following is likely to be your whole input and output
 - ![connect](https://github.com/hahacen/lab-report1/blob/main/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202022-04-10%2017.45.30.png)
 
@@ -29,15 +29,15 @@ if you are in MAC:
 - now you can try some Commands 
 - here are some commands that you can try 
 
-- cd ~
-- cd
-- ls -lat
-- ls -a
-- cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
+- ```cd ~```
+- ```cd```
+- ```ls -lat```
+- ```ls -a```
+- ```cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/```
 
 note: if you want to exit, you can 
-- Ctrl-D
-- Run the command exit
+- ```Ctrl-D```
+- ```Run the command exit```
 
 for example, if you try some, you may see the following in the terminal
 ![pic](https://github.com/hahacen/lab-report1/blob/main/471649652063_.pic.jpg)
@@ -45,7 +45,7 @@ for example, if you try some, you may see the following in the terminal
 **4. Moving Files with scp**
 - you can first creat a file using the following code
   
-  _class WhereAmI {_
+  ```class WhereAmI {
   
   _public static void main(String[] args) {_
   
@@ -57,7 +57,7 @@ for example, if you try some, you may see the following in the terminal
     
     _System.out.println(System.getProperty("user.dir"));_
     
-  _}_
+  _}```
   
 _}_
 
