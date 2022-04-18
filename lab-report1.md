@@ -136,4 +136,3 @@ You use your username and the path you saw in the command above
 - you may use semicolons to run several commands at one line
  ![absadasd](https://github.com/hahacen/lab-report1/blob/main/641650315930_.pic.jpg)
  
- 
