@@ -67,8 +67,7 @@ for example, if you try some, you may see the following in the terminal
 - you may see the following output in the terminal of the directory that you created and saved the file
 - ![output](https://github.com/hahacen/cse15l-lab-reports/blob/main/451649647571_.pic.jpg)
 - ![ab](https://github.com/hahacen/lab-report1/blob/main/541650312533_.pic.jpg)
-- ![abc]()
-```cs15lsp22amu@ieng6.ucsd.edu```
+
 
 
 
@@ -78,8 +77,17 @@ for example, if you try some, you may see the following in the terminal
 
 on client (your computer)
 ```$ ssh-keygen```
-Generating public/private rsa key pair.
+
+then you will see
+
+![ab](https://github.com/hahacen/lab-report1/blob/main/571650313536_.pic.jpg)
+
+then copy and paste ```/Users/<user-name>/.ssh/id_rsa``` like the following:
+
 Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
+
+![absad](https://github.com/hahacen/lab-report1/blob/main/621650315243_.pic.jpg)
+ 
 Enter passphrase (empty for no passphrase): 
 Note: Make sure that you do not add a passphrase for this step.
 Enter same passphrase again: 
@@ -105,21 +113,22 @@ The key's randomart image is:
 
 - then you copy the key from the public server to your .ssh your account server
  
-$ ssh cs15lsp22zz@ieng6.ucsd.edu
+```$ ssh cs15lsp22zz@ieng6.ucsd.edu```
  
-<Enter Password>
+```<Enter Password>```
  
  
-$ mkdir .ssh
+```$ mkdir .ssh```
  
-$ <logout>
+ then log out to the local computer
  
 
-$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys```
  
 You use your username and the path you saw in the command above
 
  
+ ![absadasd](https://github.com/hahacen/lab-report1/blob/main/591650314980_.pic.jpg)
  
 **6. Optimizing Remote Running**
  
